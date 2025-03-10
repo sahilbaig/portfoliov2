@@ -1,5 +1,6 @@
 import { Button } from "../ui/button";
 import Techdiv from "./tech-div";
+import TestButton from "./test-button";
 
 export default function About() {
   return (
@@ -13,6 +14,7 @@ export default function About() {
         </h1>
         <Button>Download Resume</Button>
         <Techdiv></Techdiv>
+        <TestButton />
       </div>
     </div>
   );

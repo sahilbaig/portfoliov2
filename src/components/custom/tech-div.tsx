@@ -12,15 +12,51 @@ import {
 } from "@tabler/icons-react";
 
 const techStacks = [
-  { name: "Python", icon: IconBrandPython },
-  { name: "JavaScript", icon: IconBrandJavascript },
-  { name: "HTML", icon: IconBrandHtml5 },
-  { name: "CSS", icon: IconBrandCss3 },
-  { name: "ReactJS", icon: IconBrandReact },
-  { name: "NodeJS", icon: IconBrandNodejs },
-  { name: "MongoDB", icon: IconBrandMongodb },
-  { name: "Linux", icon: IconBrandUbuntu },
-  { name: "GitHub", icon: IconBrandGithub },
+  {
+    name: "Python",
+    icon: IconBrandPython,
+    hoverColor: "hover:bg-yellow-500 hover:text-black",
+  },
+  {
+    name: "JavaScript",
+    icon: IconBrandJavascript,
+    hoverColor: "hover:bg-yellow-300 hover:text-black",
+  },
+  {
+    name: "HTML",
+    icon: IconBrandHtml5,
+    hoverColor: "hover:bg-orange-500 hover:text-white",
+  },
+  {
+    name: "CSS",
+    icon: IconBrandCss3,
+    hoverColor: "hover:bg-blue-500 hover:text-white",
+  },
+  {
+    name: "ReactJS",
+    icon: IconBrandReact,
+    hoverColor: "hover:bg-cyan-500 hover:text-white",
+  },
+  {
+    name: "NodeJS",
+    icon: IconBrandNodejs,
+    hoverColor: "hover:bg-green-500 hover:text-white",
+  },
+  {
+    name: "MongoDB",
+    icon: IconBrandMongodb,
+    hoverColor: "hover:bg-green-700 hover:text-white",
+  },
+  {
+    name: "Linux",
+    icon: IconBrandUbuntu,
+    hoverColor: "hover:bg-gray-700 hover:text-white",
+  },
+  {
+    name: "GitHub",
+    icon: IconBrandGithub,
+    hoverColor: "hover:bg-gray-900 hover:text-white",
+  },
 ];
 
 const Techdiv = () => {
