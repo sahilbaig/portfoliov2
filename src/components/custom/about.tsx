@@ -12,6 +12,7 @@ export default function About() {
           Full-Stack Developer
         </h1>
         <Button>Download Resume</Button>
+        <Techdiv></Techdiv>
       </div>
     </div>
   );
