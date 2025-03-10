@@ -1,0 +1,34 @@
+.NavigationMenu {
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  max-width: 1024px; /* Equivalent to max-w-5xl */
+  height: 60px;
+  margin: 0 auto; /* Equivalent to mx-auto */
+  display: flex;
+  align-items: center; /* Equivalent to items-center */
+  justify-content: space-between; /* Equivalent to justify-between */
+  padding: 0 2rem; /* Equivalent to px-8 (32px) */
+  background-color: black;
+  backdrop-filter: blur(10px); /* Equivalent to backdrop-blur-[10px] */
+  border-radius: 16px; /* Equivalent to rounded-2xl */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-xs */
+  transition: background-color 0.3s ease; /* Equivalent to transition-colors */
+}
+.NavigationMenu a {
+  color: #aaa59f; /* Normal white with slight transparency */
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+.NavigationMenu a:focus,
+.NavigationMenu a:active {
+  background-color: transparent !important;
+}
+
+.NavigationMenu a:hover {
+  color: #ffffff; /* Full bright white */
+  background-color: transparent !important; /* Prevents unwanted background */
+}
